@@ -1,0 +1,51 @@
+
+site_name: RIZVILAB Solenoid Controller
+site_description: Technical documentation and maintenance guide for the RIZVILAB BeagleBone Black Solenoid Controller.
+
+# Replace YOUR_GITHUB_USERNAME with your username
+site_url: https://YOUR_GITHUB_USERNAME.github.io/rizvilab-solenoid-controller/
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/rizvilab-solenoid-controller
+repo_name: rizvilab-solenoid-controller
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+
+nav:
+  - Home: index.md
+  - Documentation Guide: documentation-guide.md
+
+  - Project:
+      - Overview: 01-project-overview.md
+      - System Architecture: 02-system-architecture.md
+      - Hardware and GPIO: 03-hardware-and-gpio.md
+
+  - Software:
+      - Software Architecture: 04-software-architecture.md
+      - GUI and Operator Workflow: 05-gui-and-operator-workflow.md
+      - Solenoid Pulse Control: 06-solenoid-pulse-control.md
+
+  - Deployment:
+      - Installation: 07-installation-and-deployment.md
+      - Autostart and Startup: 08-autostart-and-startup.md
+      - Troubleshooting: 09-troubleshooting.md
+
+  - Maintenance:
+      - Maintenance and Change Control: 10-maintenance-and-change-control.md
+      - Safety and Limitations: 11-safety-and-known-limitations.md
+      - Handover Checklist: 12-handover-checklist.md
+      - Hardware Verification: hardware-verification-template.md

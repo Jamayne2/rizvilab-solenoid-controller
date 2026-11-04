@@ -1,4 +1,4 @@
-# Ice Cream Machine — BeagleBone Black controller
+# RIZVILAB Solenoid Controller — BeagleBone Black
 
 **Controller:** Python 2 / PyQt4 touchscreen application (`main.py`) using `Adafruit_BBIO.GPIO`.
 **Hardware:** BeagleBone Black, touchscreen, and three active-high solenoid relay outputs.
@@ -16,6 +16,11 @@
 - [Run, autostart, and diagnostics](#run-autostart-and-diagnostics)
 - [Legacy features and hardware caution](#legacy-features-and-hardware-caution)
 - [Refactor verification](#refactor-verification)
+
+
+## Handover documentation
+
+The detailed maintainer and operator handover guides are in [`docs/`](docs/README.md). Start with the [project overview](docs/01-project-overview.md), then review the [hardware/GPIO map](docs/03-hardware-and-gpio.md), [software architecture](docs/04-software-architecture.md), [deployment](docs/07-installation-and-deployment.md), and [safety limitations](docs/11-safety-and-known-limitations.md). The [handover checklist](docs/12-handover-checklist.md) lists what must be verified before transferring ownership.
 
 ## Application flow
 
